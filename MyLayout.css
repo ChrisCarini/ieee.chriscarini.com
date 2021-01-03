@@ -1,0 +1,136 @@
+
+#main {
+	width:962px;
+	margin: 10px auto 0px auto;
+	border: 0px solid #f0f0f0;
+}
+#background {
+	margin: 10px auto;
+	width:980px;
+	height:652px;
+	display:inline;
+	background: url(Background.jpg) center top;
+	overflow:hidden;
+	position:fixed;
+}
+#colwrap1 { 
+	margin:auto;
+	width:962px;
+	border: 0px solid #f0f0f0;
+}
+#logo {
+	background:url(Header.jpg) left top no-repeat;
+	width:962px;
+	height:171px;
+	float:left;
+	position: relative;
+	top:20px;
+	left:8px;
+	z-index:100;
+}
+.navigation{
+	width:962px;
+	height:21px;
+	font-family:'Arial';
+	font-size:20px;
+	text-align:center;
+	color:#FFFFFF;
+	float:left;
+	padding:3px 0 0px 0;
+	position: relative;
+	top:-18px;
+	z-index:100;
+}
+.navigation a{
+	color:#999770;
+	padding:5px 0;
+	text-decoration:none;
+	margin:0px 7px;
+}
+.navigation a:hover{
+	color:#FFCC33;
+	text-decoration:none;
+}
+#main_background {
+	width:962px;
+	float:left;
+	display:inline;
+	overflow:visible;
+	top:0px;
+	position:relative;
+}
+#content{
+	background:#FFFFFF;
+	width:940px;
+	font-family:'Arial';
+	font-size:14px;
+	font-weight:normal;
+	color:#999770;
+	text-align:left;
+	float:left;
+	padding:20px;
+	padding-bottom:0px;
+	position:absolute;
+	left: auto;
+	min-height:513px;
+}
+#footer{
+	background:url(Footer.jpg) left bottom;
+	width:980px;
+	height:32px;
+	margin-left:-20px;
+	float:left;
+	position:absolute;
+	bottom:0px;
+	left: auto;
+}
+
+
+
+
+body {
+	background-color: #d0d0d0;
+	margin:0px;
+	padding:0px;
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.p {
+	margin:0px;
+	padding:0px;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	text-align: inherit;
+	color: inherit;
+	line-height: inherit;
+	vertical-align: top;
+}
+p {
+	padding-top:0px;
+	margin-top:0px;
+}
+img {
+	border:0px;
+}
+div {
+	margin:0px;
+	padding:0px;
+	font-family:verdana; font-size:12px;
+}
+.AbsWrap {
+	width: 100%;
+	position: relative;
+}
+.rowWrap {
+	width: 100%;
+}
+.clearfloat {
+	clear:both;
+	height:0px;
+}
+a:link, a:visited{
+	COLOR:inherit;
+	text-decoration:inherit;
+}
